@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="simple-kafka-app" />
+        <module name="facturation-consumer" />
+        <module name="facturation-producer" />
+        <module name="facturation-kafka-stream" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="facturation-consumer" target="1.8" />
+      <module name="facturation-kafka-stream" target="1.8" />
+      <module name="facturation-producer" target="1.8" />
+      <module name="simple-kafka-app" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="facturation-consumer" options="-parameters" />
+      <module name="facturation-kafka-stream" options="-parameters" />
+      <module name="facturation-producer" options="-parameters" />
+    </option>
+  </component>
+</project>
