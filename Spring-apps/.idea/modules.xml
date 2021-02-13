@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring-apps.iml" filepath="$PROJECT_DIR$/.idea/Spring-apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facturation-consumer/facturation-consumer.iml" filepath="$PROJECT_DIR$/facturation-consumer/facturation-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facturation-kafka-stream/facturation-kafka-stream.iml" filepath="$PROJECT_DIR$/facturation-kafka-stream/facturation-kafka-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facturation-producer/facturation-producer.iml" filepath="$PROJECT_DIR$/facturation-producer/facturation-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facturation-spring-batch/facturation-spring-batch.iml" filepath="$PROJECT_DIR$/facturation-spring-batch/facturation-spring-batch.iml" />
+    </modules>
+  </component>
+</project>
